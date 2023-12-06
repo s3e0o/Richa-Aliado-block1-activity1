@@ -7,4 +7,62 @@
     android:background="@drawable/landingPic"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tv_title2"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/yellowtail"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#000000"
+        android:text="Resto"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/tv_title3"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_title" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/merienda_one"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#000000"
+        android:text="La Belle Vie"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/tv_title2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv_title3"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/libre_baskerville"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#000000"
+        android:text="&quot;Where food brings you life.&quot;"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_title2"
+        tools:layout_editor_absoluteY="211dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
